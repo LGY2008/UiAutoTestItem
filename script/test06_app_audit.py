@@ -29,7 +29,7 @@ class TestAppAudit:
         GetDriver.quit_driver_app()
 
     # 测试方法
-    def test_app_audit(self, channel="python", title_text=""):
+    def test_app_audit(self, channel="python", title_text="Python"):
         try:
             # 调用查找文章业务方法
             self.audit.page_article(channel, title_text)
