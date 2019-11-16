@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c64ab58628dd6ae3",
+  "name" : "TestMpLogin.test_mp_login",
+  "time" : {
+    "start" : 1573614959701,
+    "stop" : 1573614972514,
+    "duration" : 12813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

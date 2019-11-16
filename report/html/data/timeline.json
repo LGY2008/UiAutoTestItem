@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MS-20180906QJYH",
+    "children" : [ {
+      "name" : "36852-MainThread",
+      "children" : [ {
+        "name" : "TestMpLogin.test_mp_login",
+        "uid" : "c64ab58628dd6ae3",
+        "parentUid" : "f985d07da124929a0f4cc892d8020db9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573614959701,
+          "stop" : 1573614972514,
+          "duration" : 12813
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f985d07da124929a0f4cc892d8020db9"
+    } ],
+    "uid" : "3e2d2136f33f9442217309955cee6bf1"
+  } ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "c64ab58628dd6ae3",
+  "name" : "TestMpLogin.test_mp_login",
+  "fullName" : "test_mp_login.TestMpLogin.test_mp_login",
+  "historyId" : "fb63fe3a6e423b1ca462674800a8c95c",
+  "time" : {
+    "start" : 1573614959701,
+    "stop" : 1573614972514,
+    "duration" : 12813
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "12fa54898af5afa0",
+      "name" : "失败原因：",
+      "source" : "12fa54898af5afa0.png",
+      "type" : "image/png",
+      "size" : 155846
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "MS-20180906QJYH"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "36852-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mp_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mp_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestMpLogin.test_mp_login"
+  }, {
+    "name" : "package",
+    "value" : "test_mp_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c64ab58628dd6ae3.json",
+  "parameterValues" : [ ]
+}

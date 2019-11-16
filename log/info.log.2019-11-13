@@ -1,0 +1,346 @@
+2019-11-13 12:00:17,069 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="59430e5072830ffebca0194bdfd29966")>
+2019-11-13 12:00:17,071 INFO [root] [page_mp_login.py (page_login:29] - 正在执行登录操作，手机号：13012345678 密码:246810
+2019-11-13 12:00:17,071 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 12:00:17,072 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 12:00:17,092 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 12:00:17,139 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 12:00:17,292 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 12:00:17,292 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 12:00:17,311 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 12:00:17,344 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 12:00:17,441 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 12:00:17,441 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 12:00:17,534 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.user-name') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 12:00:19,179 INFO [root] [base.py (base_get_text:41] - 正在对：('css selector', '.user-name')元素，执行获取文本操作，获取的文本内容为：test123
+2019-11-13 12:00:19,182 INFO [root] [base.py (base_get_img:46] - 正在对执行截图操作
+2019-11-13 12:00:19,905 INFO [root] [base.py (base_write_img_report:52] - 正在将图片写入allure报告
+2019-11-13 12:00:19,906 ERROR [root] [test_mp_login.py (test_mp_login:41] - assert 'test123' == 'test1234'
+  - test123
+  + test1234
+  ?        +
+2019-11-13 14:47:42,609 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="45f6fae8f890d374839826f5fd7dc223")>
+2019-11-13 14:47:42,610 INFO [root] [page_mp_login.py (page_login:29] - 正在执行登录操作，手机号：13012345678 密码:246810
+2019-11-13 14:47:42,610 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 14:47:42,610 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 14:47:42,627 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 14:47:42,678 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 14:47:42,888 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 14:47:42,889 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 14:47:42,912 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 14:47:42,956 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 14:47:43,041 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 14:47:43,041 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 14:47:43,130 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.user-name') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 14:47:44,770 INFO [root] [base.py (base_get_text:41] - 正在对：('css selector', '.user-name')元素，执行获取文本操作，获取的文本内容为：test123
+2019-11-13 17:12:53,869 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="d093e5e00b9af8e2a2a7bf75b9542c87")>
+2019-11-13 17:12:53,870 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:12:53,870 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:12:53,870 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:53,896 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:12:53,973 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:12:54,168 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:12:54,169 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:54,187 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:12:54,236 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:12:54,340 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:12:54,341 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:54,468 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="d093e5e00b9af8e2a2a7bf75b9542c87")>
+2019-11-13 17:12:54,470 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:12:54,470 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:56,824 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:12:56,825 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:57,140 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:12:57,140 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:57,501 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:12:57,886 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest12002 操作
+2019-11-13 17:12:58,309 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:58,369 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:12:58,369 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:58,384 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:12:58,422 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情，很不错！ 操作
+2019-11-13 17:12:58,620 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:12:58,621 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:58,780 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:12:58,780 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:58,937 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:12:58,937 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:12:59,070 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:12:59,071 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:13:41,164 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="fa548734637d4d8600b787a897ac9f25")>
+2019-11-13 17:13:41,164 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:13:41,164 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:13:41,164 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:13:41,197 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:13:41,250 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:13:41,454 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:13:41,454 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:13:41,475 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:13:41,518 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:13:41,589 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:13:41,589 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:13:41,742 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="fa548734637d4d8600b787a897ac9f25")>
+2019-11-13 17:13:41,743 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:13:41,743 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:13,510 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="5335eaaf8dd85ab28cc5208bb08e941c")>
+2019-11-13 17:14:13,510 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:14:13,510 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:13,511 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:13,596 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:14:13,701 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:14:13,952 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:13,952 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:13,979 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:14:14,027 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:14:14,166 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:14:14,167 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:14,252 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="5335eaaf8dd85ab28cc5208bb08e941c")>
+2019-11-13 17:14:14,252 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:14:14,253 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:16,206 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:14:16,206 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:16,387 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:16,388 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:16,956 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:14:17,023 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest12002 操作
+2019-11-13 17:14:17,489 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:17,539 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:17,539 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:17,553 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:14:17,581 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情，很不错！ 操作
+2019-11-13 17:14:17,815 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:14:17,816 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:17,903 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:14:17,903 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:18,064 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:14:18,064 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:48,606 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="33ee729f74068766486a921628adefc7")>
+2019-11-13 17:14:48,606 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:14:48,606 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:48,607 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:48,639 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:14:48,738 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:14:48,919 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:48,920 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:48,954 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:14:49,000 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:14:49,111 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:14:49,111 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:49,258 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="33ee729f74068766486a921628adefc7")>
+2019-11-13 17:14:49,259 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:14:49,259 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:51,049 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:14:51,049 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:51,318 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:51,319 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:52,271 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:14:52,306 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest12002 操作
+2019-11-13 17:14:52,576 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:52,621 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:14:52,621 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:52,642 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:14:52,669 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情，很不错！ 操作
+2019-11-13 17:14:52,889 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:14:52,890 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:53,076 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:14:53,076 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:53,231 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:14:53,231 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:14:53,359 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:14:53,359 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:15:57,713 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="1f378a297818967981f4df191a59b7d8")>
+2019-11-13 17:15:57,713 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:15:57,713 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:15:57,714 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:15:57,795 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:15:57,839 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:15:58,116 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:15:58,116 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:15:58,138 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:15:58,182 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:15:58,297 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:15:58,297 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:15:58,401 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="1f378a297818967981f4df191a59b7d8")>
+2019-11-13 17:15:59,410 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:15:59,410 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:39,870 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="e60f4cb7e65586899f69686dc04e60a5")>
+2019-11-13 17:16:39,871 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:16:39,871 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:16:39,871 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:39,911 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:16:39,949 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:16:40,138 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:16:40,138 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:40,157 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:16:40,206 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:16:40,334 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:16:40,335 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:40,460 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="e60f4cb7e65586899f69686dc04e60a5")>
+2019-11-13 17:16:42,465 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:16:42,465 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:42,584 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:16:42,585 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:42,713 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:16:42,714 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:43,296 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:16:43,343 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest12002 操作
+2019-11-13 17:16:43,626 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:43,672 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:16:43,672 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:43,693 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:16:43,728 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情，很不错！ 操作
+2019-11-13 17:16:43,810 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:16:43,810 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:43,929 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:16:43,929 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:45,081 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:16:45,081 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:16:45,180 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:16:45,180 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:17,763 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="c122e20e6e1a2f53f771ce2a2ced7d1c")>
+2019-11-13 17:17:17,764 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:17:17,764 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:17:17,764 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:17,788 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:17:17,875 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:17:18,147 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:17:18,147 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:18,164 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:17:18,206 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:17:18,316 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:17:18,316 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:18,418 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="c122e20e6e1a2f53f771ce2a2ced7d1c")>
+2019-11-13 17:17:20,423 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:17:20,423 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:20,541 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:17:20,542 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:20,676 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:17:20,677 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:21,409 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:17:21,568 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest12002 操作
+2019-11-13 17:17:22,967 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:23,022 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:17:23,022 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:23,038 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:17:23,065 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情，很不错！ 操作
+2019-11-13 17:17:23,298 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:17:23,298 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:23,439 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:17:23,440 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:24,634 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:17:24,634 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:17:24,734 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:17:24,734 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:21,279 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="e2b11dd707d44ad01cea0a2195c54cb9")>
+2019-11-13 17:22:21,279 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:22:21,279 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:22:21,280 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:21,312 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:22:21,398 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:22:21,553 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:22:21,553 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:21,569 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:22:21,600 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:22:21,700 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:22:21,700 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:21,800 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="e2b11dd707d44ad01cea0a2195c54cb9")>
+2019-11-13 17:22:23,801 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:22:23,801 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:23,887 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:22:23,887 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:23,976 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:22:23,976 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:24,545 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:22:24,626 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest12002 操作
+2019-11-13 17:22:25,898 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:25,946 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:22:25,947 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:25,967 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:22:25,996 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情，很不错！ 操作
+2019-11-13 17:22:26,202 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:22:26,202 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:26,303 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:22:26,303 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:27,442 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:22:27,442 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:27,531 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:22:27,532 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:27,685 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:22:28,262 INFO [root] [base.py (base_get_text:41] - 正在对：('xpath', "//*[contains(text(),'成功')]")元素，执行获取文本操作，获取的文本内容为：新增文章成功
+2019-11-13 17:22:28,264 INFO [root] [base.py (base_get_img:46] - 正在对执行截图操作
+2019-11-13 17:22:28,739 INFO [root] [base.py (base_write_img_report:52] - 正在将图片写入allure报告
+2019-11-13 17:22:28,739 ERROR [root] [test_mp_article.py (test_article:46] - assert '新增文章成功！' == '新增文章成功'
+  - 新增文章成功！
+  ?       -
+  + 新增文章成功
+2019-11-13 17:27:55,865 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="fe2561b6fd758356cc84621123b5da10")>
+2019-11-13 17:27:55,865 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:27:55,866 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:27:55,866 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:27:55,919 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:27:56,017 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:27:56,296 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:27:56,297 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:27:56,317 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:27:56,383 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:27:56,516 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:27:56,516 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:27:56,622 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="fe2561b6fd758356cc84621123b5da10")>
+2019-11-13 17:27:58,623 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:27:58,623 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:27:58,734 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:27:58,734 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:27:58,852 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:27:58,853 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:27:59,530 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:27:59,566 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest003 操作
+2019-11-13 17:28:00,899 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:00,943 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:28:00,943 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:00,960 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:28:01,000 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情不错，电脑运行很快！ 操作
+2019-11-13 17:28:01,276 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:28:01,277 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:01,387 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:28:01,388 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:02,619 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:28:02,619 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:02,750 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:28:02,751 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:02,859 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:28:03,456 INFO [root] [base.py (base_get_text:41] - 正在对：('xpath', "//*[contains(text(),'成功')]")元素，执行获取文本操作，获取的文本内容为：新增文章成功
+2019-11-13 17:53:36,911 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="af35758a3710dae97a9a1918fa6c7228")>
+2019-11-13 17:53:36,912 INFO [root] [page_mp_login.py (page_login_success:36] - 正在执行依赖登录成功操作，手机号：13012345678 密码:246810
+2019-11-13 17:53:36,912 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:53:36,912 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-input__inner') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:36,950 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '.el-input__inner') 元素执行清空操作
+2019-11-13 17:53:36,990 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '.el-input__inner') 元素执行输入: 13012345678 操作
+2019-11-13 17:53:37,292 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:53:37,292 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', "[placeholder='验证码']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:37,312 INFO [root] [base.py (base_input:27] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作
+2019-11-13 17:53:37,344 INFO [root] [base.py (base_input:30] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入: 246810 操作
+2019-11-13 17:53:37,429 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button--primary')元素，执行点击操作
+2019-11-13 17:53:37,430 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:37,523 INFO [root] [base.py (__init__:13] - 正在获取driver对象::<selenium.webdriver.chrome.webdriver.WebDriver (session="af35758a3710dae97a9a1918fa6c7228")>
+2019-11-13 17:53:39,524 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='内容管理']")元素，执行点击操作
+2019-11-13 17:53:39,524 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='内容管理']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:39,639 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[contains(text(),'发布文章')]")元素，执行点击操作
+2019-11-13 17:53:39,640 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:39,756 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:53:39,757 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='文章名称']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:40,387 INFO [root] [base.py (base_input:27] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行清空操作
+2019-11-13 17:53:40,553 INFO [root] [base.py (base_input:30] - 正在对：('xpath', "//*[@placeholder='文章名称']") 元素执行输入: sztest003 操作
+2019-11-13 17:53:41,846 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#publishTinymce_ifr') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:41,888 INFO [root] [base.py (base_input:23] - 正在调用输入方法：
+2019-11-13 17:53:41,889 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '#tinymce') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:41,907 INFO [root] [base.py (base_input:27] - 正在对：('css selector', '#tinymce') 元素执行清空操作
+2019-11-13 17:53:41,941 INFO [root] [base.py (base_input:30] - 正在对：('css selector', '#tinymce') 元素执行输入: 今天心情不错，电脑运行很快！ 操作
+2019-11-13 17:53:42,217 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='自动']")元素，执行点击操作
+2019-11-13 17:53:42,217 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='自动']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:42,337 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[@placeholder='请选择']")元素，执行点击操作
+2019-11-13 17:53:42,337 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[@placeholder='请选择']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:43,553 INFO [root] [base.py (base_click:35] - 正在对：('xpath', "//*[text()='数据库']")元素，执行点击操作
+2019-11-13 17:53:43,553 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[text()='数据库']") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:43,653 INFO [root] [base.py (base_click:35] - 正在对：('css selector', '.el-button.filter-item.el-button--primary')元素，执行点击操作
+2019-11-13 17:53:43,654 INFO [root] [base.py (base_find:18] - 正在查找元素：('css selector', '.el-button.filter-item.el-button--primary') ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:43,778 INFO [root] [base.py (base_find:18] - 正在查找元素：('xpath', "//*[contains(text(),'成功')]") ，超时时间: 30, 查找的频率: 0.5
+2019-11-13 17:53:44,363 INFO [root] [base.py (base_get_text:41] - 正在对：('xpath', "//*[contains(text(),'成功')]")元素，执行获取文本操作，获取的文本内容为：新增文章成功

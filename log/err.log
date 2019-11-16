@@ -1,0 +1,15 @@
+2019-11-16 11:47:25,445 ERROR [root] [test05_app_login.py (test_app_login:40] - assert False
+ +  where False = <bound method PageAppLogin.page_is_login_success of <page.page_app_login.PageAppLogin object at 0x0360D4D0>>()
+ +    where <bound method PageAppLogin.page_is_login_success of <page.page_app_login.PageAppLogin object at 0x0360D4D0>> = <page.page_app_login.PageAppLogin object at 0x0360D4D0>.page_is_login_success
+ +      where <page.page_app_login.PageAppLogin object at 0x0360D4D0> = <test05_app_login.TestAppLogin object at 0x0361F090>.login
+2019-11-16 11:52:13,969 ERROR [root] [test05_app_login.py (test_app_login:40] - assert False
+ +  where False = <bound method PageAppLogin.page_is_login_success of <page.page_app_login.PageAppLogin object at 0x0360DF70>>()
+ +    where <bound method PageAppLogin.page_is_login_success of <page.page_app_login.PageAppLogin object at 0x0360DF70>> = <page.page_app_login.PageAppLogin object at 0x0360DF70>.page_is_login_success
+ +      where <page.page_app_login.PageAppLogin object at 0x0360DF70> = <test05_app_login.TestAppLogin object at 0x0360DFF0>.login
+2019-11-16 11:54:34,271 ERROR [root] [test05_app_login.py (test_app_login:40] - assert False
+ +  where False = <bound method PageAppLogin.page_is_login_success of <page.page_app_login.PageAppLogin object at 0x0359BF70>>()
+ +    where <bound method PageAppLogin.page_is_login_success of <page.page_app_login.PageAppLogin object at 0x0359BF70>> = <page.page_app_login.PageAppLogin object at 0x0359BF70>.page_is_login_success
+ +      where <page.page_app_login.PageAppLogin object at 0x0359BF70> = <test05_app_login.TestAppLogin object at 0x0359BFF0>.login
+2019-11-16 16:25:15,867 ERROR [root] [test06_app_audit.py (test_app_audit:35] - 'WebDriver' object has no attribute 'swipe'
+2019-11-16 16:31:31,697 ERROR [root] [test06_app_audit.py (test_app_audit:35] - Message: An unknown server-side error occurred while processing the command.
+

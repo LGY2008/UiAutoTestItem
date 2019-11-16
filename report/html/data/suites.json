@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_mp_login",
+    "children" : [ {
+      "name" : "TestMpLogin.test_mp_login",
+      "uid" : "c64ab58628dd6ae3",
+      "parentUid" : "8db137a65f8cc7da1d8645fc004056ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573614959701,
+        "stop" : 1573614972514,
+        "duration" : 12813
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8db137a65f8cc7da1d8645fc004056ff"
+  } ]
+}

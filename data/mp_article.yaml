@@ -1,0 +1,4 @@
+mp_article001:
+  title: "sztest006"
+  content: "今天心情不错！"
+  expect: "新增文章成功"

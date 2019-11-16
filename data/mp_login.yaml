@@ -1,0 +1,4 @@
+mplogin001:
+  phone: "13012345678"
+  code: "246810"
+  expect: "test123"

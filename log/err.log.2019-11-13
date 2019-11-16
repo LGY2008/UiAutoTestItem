@@ -1,0 +1,8 @@
+2019-11-13 12:00:19,906 ERROR [root] [test_mp_login.py (test_mp_login:41] - assert 'test123' == 'test1234'
+  - test123
+  + test1234
+  ?        +
+2019-11-13 17:22:28,739 ERROR [root] [test_mp_article.py (test_article:46] - assert '新增文章成功！' == '新增文章成功'
+  - 新增文章成功！
+  ?       -
+  + 新增文章成功
